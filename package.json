@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "web-app/Module.js",
+  "main": "web-app/game.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "docdash": "^2.0.2",
+    "fast-check": "^4.8.0",
     "mocha": "^11.7.5"
   }
 }

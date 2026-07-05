@@ -4,7 +4,7 @@
     },
     "source": {
         "include": [
-            "web-app/Module.js"
+            "web-app/game.js"
         ],
         "includePattern": "\\.js$",
         "excludePattern": "(node_modules/|docs)"
@@ -21,19 +21,9 @@
     },
     "templates": {
         "cleverLinks": true,
-        "monospaceLinks": false,
-        "default": {
-            "staticFiles": {
-                "include": [
-                    "./.docs-template/custom.css"
-                ]
-            }
-        }
+        "monospaceLinks": false
     },
     "docdash": {
-        "scripts": [
-            "custom.css"
-        ],
         "static": true,
         "sort": true,
         "collapse": false,
